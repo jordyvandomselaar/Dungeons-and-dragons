@@ -13,7 +13,12 @@ It allows users to create characters using any device that has a webbrowser. Not
 Please do! I'd love your input on this, see how you'd fix problems or build new features. Just fork this repo, Check "How to start developing" and send pull requests =)
 
 ## Technologies used
-This frontend runs entirely on React and React-router
+This frontend uses:
+- React
+- React-router
+- Stylus
+
+Why not sass? I like stylus more, it has some great functions and I just like the syntax.
 
 ## Are you a Redux wizard?
 Awesome! I'd like to be your apprentice, teach me, master.
