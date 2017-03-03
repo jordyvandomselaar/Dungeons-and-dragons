@@ -11,3 +11,9 @@ It allows users to create characters using any device that has a webbrowser. Not
 
 ## Want to contribute?
 Please do! I'd love your input on this, see how you'd fix problems or build new features. Just fork this repo, Check "How to start developing" and send pull requests =)
+
+## Technologies used
+This frontend runs entirely on React and React-router
+
+## Are you a Redux wizard?
+Awesome! I'd like to be your apprentice, teach me, master.
