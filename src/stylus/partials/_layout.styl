@@ -1,0 +1,42 @@
+.layout-vertical
+    display: flex
+    flex-direction: column
+
+.layout-horizontal
+    display: flex
+    flex-direction: row
+
+.wrap
+    flex-wrap: wrap
+
+.container
+    padding: 0 20px
+
+.space-between
+    justify-content: space-between
+
+ .flex
+    flex: 1
+
+for num in (1..12)
+    .col-sm-{num}
+        width: (100 / $columns.amount * num) %
+
+    .col-sm-offset-{num}
+        margin-left: (100 / $columns.amount * num) %
+
+@media  $breakpoints.tablet
+    for num in (1..12)
+        .col-md-{num}
+            width: (100 / $columns.amount * num) %
+
+        .col-md-offset-{num}
+            margin-left: (100 / $columns.amount * num) %
+
+@media  $breakpoints.computer
+    for num in (1..12)
+        .col-lg-{num}
+            width: (100 / $columns.amount * num) %
+
+        .col-lg-offset-{num}
+            margin-left: (100 / $columns.amount * num) %
